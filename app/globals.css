@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 
-.texto-grande {
-  font-size: 128px;
+#carro{
+    background-image:  url(/public/carro.webp);
 }
 
-.texto-vermelho {
-  color: red;
+body{
+    background-color: rgb(8, 17, 80);
 }
