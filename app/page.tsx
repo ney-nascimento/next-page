@@ -28,11 +28,11 @@ export default function Home() {
       </header>
 
       <section className="flex flex-col  h-[115vh] pt-[8em] bac bg-[url(https://media.istockphoto.com/id/1417857883/photo/person-are-using-laptops-working-or-studying-online-at-home-businessman-using-laptop-work.webp?b=1&s=170667a&w=0&k=20&c=7au5-SpKDgCJHZLA1e8iCX4Fm92IoFsdtCQJvSbvzrQ=)] mt-5 bg-cover w-full">
-        <h1 className='text-white text-5xl p-15 font-bold font-style: italic flex place-items-center p-6 justify-between'>BEM VINDO AO NOSSO MUNDO DE TECNOLOGIA!</h1>
+        <h1 className='text-white text-5xl p-15 font-bold italic flex place-items-center p-6 justify-between'>BEM VINDO AO MUNDO DA TECNOLOGIA!</h1>
         <nav>
           <div className='flex justify-center'>
             <div className='backdrop-blur-lg bg-[rgba(0,0,0,0.1)] z-0'>
-              < Image
+              <Image
                 src={"/logo.png"}
                 width={900}
                 height={900}
@@ -42,10 +42,10 @@ export default function Home() {
           </div>
         </nav>
       </section>
+
       <main className='py-6 first:mt-0'>
-        <section className='flax mt-5 justify-center'>
-          <div className='bg-gradient-to-r gap-10 from-blue-700 to-detail w-[80%] h-[28vw] p-6 shadow-lg flex'>
-            <div className='text-white flex w-[100%]'>
+        <section className='flex justify-center'>
+          <div className='bg-gradient-to-r gap-10 from-blue-700 to-detail w-[100%] h-[28vw] p-6 shadow-lg flex'>
               <h1 className='text-white text-5xl font-bold'>HTC by SOLUCTION</h1>
               <ul className='w-[20%] flex-col py-20 pr-20 text-4xl text-white font-bold'>
                 <h1 className='py-10 p-15 text-4xl text-white font-bold'>Acesse:</h1>
@@ -68,10 +68,10 @@ export default function Home() {
                 height={900}
                 alt=''
               />
-            </div>
           </div>
         </section>
       </main>
+
       <footer className='bg-black text-white flex justify-evenly py-10'>
         <div className='flex items-center flex-col'>
           <h1 className='font-bold text-3xl'>Contact</h1>
