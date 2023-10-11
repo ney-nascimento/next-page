@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 
-#carro{
-    background-image:  url(/public/carro.webp);
-}
-
 body{
     background-color: rgb(8, 17, 80);
 }
